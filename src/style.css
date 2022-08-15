@@ -1,9 +1,13 @@
 /* styles go here */
-.form-fieldset:not(:last-child) {
+.form-fieldset {
   margin-bottom: 20px;
 }
 
-.form-field:not(:last-child) {
+.form-field {
   display: block;
   margin-bottom: 10px;
+}
+
+.form-field:last-child {
+  margin-bottom: 0;
 }
